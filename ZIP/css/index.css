@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px ;
+}
+/* parte superior do desconto na primeira compra */
+
+body{
+    height: 2000px;
+}
+#parte_superior{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    height: 39px;
+    width: 100% ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parte_superior > p{
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    position: relative;
+    
+    
+
+}
+
+#img_parte_superior{
+    position: fixed;
+    width: 34px;
+    height: 34px;
+    right: 511px;
+}
+
+#espaço {
+    color: black;
+}
+
+#mais_exclamaçao{
+    position: absolute;
+    bottom: 3px;
+
+}
+
+
+
+
+
+
+
+/* menu principa */
+
+/* parte do menu*/
+
+#menu_principal {
+    z-index: 1;
+    position: fixed;
+    top: 39.5px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 122px;
+    
+}
+
+#div_menu_principal{
+    width: 1330px;
+    position: relative;
+    display: flex;
+    column-gap: 17px;
+    position: relative;
+    left: 142px;
+    top: 80px;
+
+}
+
+#div_menu_principal > a {
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    left: 30px;
+}
+
+#div_menu_principal > a:hover{
+    text-decoration: underline;
+    color: rgb(31, 28, 28);
+}
+
+/*imagem da zip do menu*/
+
+#menu_imagem_zip {
+    z-index: 1;
+    position: fixed;
+    width: 116px;
+    height: 116px;
+    top: 58px;
+    left: 23px;
+    
+    
+}
+
+
+
+
+
+/* imagem da barra de pesquisa e etc */
+
+#imagem_da_barra_de_pesquisa_e_etc {
+    z-index: 1;
+    position: fixed;
+    top: 140px;
+    display: flex ;
+    column-gap: 16px;
+    right: 42px;
+    top: 105px;
+    
+}
+
+/* imagem da barra de pesquisa */
+
+#imagem_da_barra_de_pesquisa{
+    transform: rotate(315deg);
+    position: relative;
+    top: 5px;
+    width: 19px;
+    height: 30px;
+}
+
+/* imagem do icone de favorito */
+
+#imagem_do_icone_de_favorito{
+    position: relative;
+    top: 7px;
+    width: 23px;
+    height: 22px;
+}
+
+/* imagem do icone de pessoa */
+
+#imagem_do_icone_de_pessoa {
+    position: relative;
+    top: 6px;
+    width: 20px;
+    height: 24px;
+}
+
+/* imagem do icone da conta */
+
+#imagem_do_icone_da_conta {
+    position: relative;
+    top: 6px;
+    width: 30px;
+    height: 24px;
+}
+
+
+
+
+/* parte do vesace - bazar */
+
+/* section do vesace - bazar */
+
+#section_do_vesace_-_bazar{
+    position: relative;
+    
+
+}
+
+/* imagem de fundo */
+
+#imagem_de_fundo{
+    width: 1522px;
+    height: 856px;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+
+
+/* imagem de fundo com blur */
+
+
+#imagem_de_fundo_com_blur{
+    height: 71px;
+    position: relative;
+    width: 1522px;
+}
+
+/* parte escrita versace - bazar */
+
+#parte_escrita_versace_-_bazar{
+    font-family: 'Lucida Sans Unicode', 'sans-serif' ;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    position: relative;
+    bottom: 270px;
+    left: 960px;
+    font-weight: bolder;
+}
+
+
+/* parte do botão */
+
+#parte_dos_botoes{
+    display: flex;
+    column-gap: 3px;
+    position: absolute;
+    bottom: 200px;
+    left: 800px;
+}
+
+/* botoes */
+.botao_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.botao_1:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.botao_1 p{
+    font-weight: bolder;
+    font-family: 'Lucida Sans Unicode', 'sans-serif' ;
+}
+
